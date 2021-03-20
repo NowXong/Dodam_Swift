@@ -1,14 +1,14 @@
 # Dodam
 diary for a child growing up without any problems
 
-# Apple app store
+### Apple app store
 [애플 앱스토어 바로가기](https://apps.apple.com/kr/app/dodam/id1558335789, "dodam App store link")
 
-# 유튜브 영상 보기
+### 유튜브 영상 보기
 [도담 유튜브 영상 보기](https://www.youtube.com/watch?v=isxmoAD25KM, "dodam link")
 
 
-# 개인정보 처리방침
+##### 개인정보 처리방침
 개인정보의 처리 목적 (‘https://github.com/kyeongmipak/dodam_swift’이하 Dodam) 은(는) 다음의 목적을 위하여 개인정보를 처리하고 있으며, 다음의 목적 이외의 용도로는 이용하지 않습니다.
 고객 가입의사 확인, 고객에 대한 서비스 제공에 따른 본인 식별.인증, 회원자격 유지.관리, 물품 또는 서비스 공급에 따른 금액 결제, 물품 또는 서비스의 공급.배송 등
 개인정보의 처리 및 보유 기간
