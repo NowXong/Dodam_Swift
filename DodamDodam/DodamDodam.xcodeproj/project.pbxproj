@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F9C2FD125F5448D00462866 /* AlarmSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C2FD025F5448D00462866 /* AlarmSettingViewController.swift */; };
+		6253AB2125F0DDD50001BAEC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253AB2025F0DDD50001BAEC /* HomeViewController.swift */; };
+		6253AB2625F0DE3C0001BAEC /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253AB2525F0DE3C0001BAEC /* StatisticsViewController.swift */; };
+		6253AB2925F0DFDE0001BAEC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253AB2825F0DFDE0001BAEC /* SettingViewController.swift */; };
+		6253AB2D25F0E02A0001BAEC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253AB2C25F0E02A0001BAEC /* RegisterViewController.swift */; };
+		6253AB3025F0E0BA0001BAEC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253AB2F25F0E0BA0001BAEC /* DetailViewController.swift */; };
+		6253AB3625F0E12F0001BAEC /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253AB3525F0E12F0001BAEC /* ThemeViewController.swift */; };
+		6253AB4225F0E2470001BAEC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253AB4125F0E2470001BAEC /* ProfileViewController.swift */; };
+		627A01E225FC658000570064 /* MonthlyListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A01E125FC658000570064 /* MonthlyListTableViewCell.swift */; };
+		627A01E525FC659400570064 /* MonthlyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A01E425FC659400570064 /* MonthlyListViewController.swift */; };
+		62C6E1E125FCC6FD00EF7D31 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C6E1E025FCC6FD00EF7D31 /* Diary.swift */; };
+		812B340125F0C2CB00DD299D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812B340025F0C2CB00DD299D /* AppDelegate.swift */; };
+		812B340325F0C2CB00DD299D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812B340225F0C2CB00DD299D /* SceneDelegate.swift */; };
+		812B340825F0C2CB00DD299D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812B340625F0C2CB00DD299D /* Main.storyboard */; };
+		812B340A25F0C2CE00DD299D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812B340925F0C2CE00DD299D /* Assets.xcassets */; };
+		812B340D25F0C2CE00DD299D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812B340B25F0C2CE00DD299D /* LaunchScreen.storyboard */; };
+		817ECD0B25F6023700BB3F8B /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817ECD0A25F6023700BB3F8B /* Share.swift */; };
+		817ECD0F25F6028200BB3F8B /* SelectEmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817ECD0E25F6028200BB3F8B /* SelectEmotionViewController.swift */; };
+		B399F8CCB79CB2A9C589D9E8 /* Pods_DodamDodam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B432E3C9A7B8F8482218F5 /* Pods_DodamDodam.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F9C2FD025F5448D00462866 /* AlarmSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettingViewController.swift; sourceTree = "<group>"; };
+		6253AB2025F0DDD50001BAEC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6253AB2525F0DE3C0001BAEC /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		6253AB2825F0DFDE0001BAEC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		6253AB2C25F0E02A0001BAEC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6253AB2F25F0E0BA0001BAEC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6253AB3525F0E12F0001BAEC /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
+		6253AB4125F0E2470001BAEC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		627A01E125FC658000570064 /* MonthlyListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyListTableViewCell.swift; sourceTree = "<group>"; };
+		627A01E425FC659400570064 /* MonthlyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyListViewController.swift; sourceTree = "<group>"; };
+		62C6E1E025FCC6FD00EF7D31 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		812B33FD25F0C2CB00DD299D /* DodamDodam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodamDodam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		812B340025F0C2CB00DD299D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		812B340225F0C2CB00DD299D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		812B340725F0C2CB00DD299D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		812B340925F0C2CE00DD299D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		812B340C25F0C2CE00DD299D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		812B340E25F0C2CE00DD299D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817ECD0A25F6023700BB3F8B /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		817ECD0E25F6028200BB3F8B /* SelectEmotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectEmotionViewController.swift; sourceTree = "<group>"; };
+		99B432E3C9A7B8F8482218F5 /* Pods_DodamDodam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DodamDodam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1427A6E0556CBB59E4154B8 /* Pods-DodamDodam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodamDodam.debug.xcconfig"; path = "Target Support Files/Pods-DodamDodam/Pods-DodamDodam.debug.xcconfig"; sourceTree = "<group>"; };
+		E84992BA5AFA07F9ECBA20A3 /* Pods-DodamDodam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodamDodam.release.xcconfig"; path = "Target Support Files/Pods-DodamDodam/Pods-DodamDodam.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		812B33FA25F0C2CB00DD299D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B399F8CCB79CB2A9C589D9E8 /* Pods_DodamDodam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6253AB1C25F0DD310001BAEC /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				6253AB2825F0DFDE0001BAEC /* SettingViewController.swift */,
+				6253AB3525F0E12F0001BAEC /* ThemeViewController.swift */,
+				6253AB4125F0E2470001BAEC /* ProfileViewController.swift */,
+				5F9C2FD025F5448D00462866 /* AlarmSettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		6253AB1E25F0DD680001BAEC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6253AB2025F0DDD50001BAEC /* HomeViewController.swift */,
+				6253AB2F25F0E0BA0001BAEC /* DetailViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		627A01DF25FC651F00570064 /* MonthlyList */ = {
+			isa = PBXGroup;
+			children = (
+				627A01E125FC658000570064 /* MonthlyListTableViewCell.swift */,
+				627A01E425FC659400570064 /* MonthlyListViewController.swift */,
+				62C6E1E025FCC6FD00EF7D31 /* Diary.swift */,
+			);
+			path = MonthlyList;
+			sourceTree = "<group>";
+		};
+		812B33F425F0C2CB00DD299D = {
+			isa = PBXGroup;
+			children = (
+				812B33FF25F0C2CB00DD299D /* DodamDodam */,
+				812B33FE25F0C2CB00DD299D /* Products */,
+				A8DE577682F1829B635C0C7A /* Pods */,
+				A9F8B0B6BDD343A6A83515AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		812B33FE25F0C2CB00DD299D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				812B33FD25F0C2CB00DD299D /* DodamDodam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		812B33FF25F0C2CB00DD299D /* DodamDodam */ = {
+			isa = PBXGroup;
+			children = (
+				6253AB1E25F0DD680001BAEC /* Home */,
+				8176B95225FC7CAB00D104E7 /* Statistics */,
+				627A01DF25FC651F00570064 /* MonthlyList */,
+				817ECD0D25F6025A00BB3F8B /* RegisterDiary */,
+				6253AB1C25F0DD310001BAEC /* Setting */,
+				817ECD0A25F6023700BB3F8B /* Share.swift */,
+				812B340025F0C2CB00DD299D /* AppDelegate.swift */,
+				812B340225F0C2CB00DD299D /* SceneDelegate.swift */,
+				812B340625F0C2CB00DD299D /* Main.storyboard */,
+				812B340925F0C2CE00DD299D /* Assets.xcassets */,
+				812B340B25F0C2CE00DD299D /* LaunchScreen.storyboard */,
+				812B340E25F0C2CE00DD299D /* Info.plist */,
+			);
+			path = DodamDodam;
+			sourceTree = "<group>";
+		};
+		8176B95225FC7CAB00D104E7 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				6253AB2525F0DE3C0001BAEC /* StatisticsViewController.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		817ECD0D25F6025A00BB3F8B /* RegisterDiary */ = {
+			isa = PBXGroup;
+			children = (
+				817ECD0E25F6028200BB3F8B /* SelectEmotionViewController.swift */,
+				6253AB2C25F0E02A0001BAEC /* RegisterViewController.swift */,
+			);
+			path = RegisterDiary;
+			sourceTree = "<group>";
+		};
+		A8DE577682F1829B635C0C7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1427A6E0556CBB59E4154B8 /* Pods-DodamDodam.debug.xcconfig */,
+				E84992BA5AFA07F9ECBA20A3 /* Pods-DodamDodam.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9F8B0B6BDD343A6A83515AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99B432E3C9A7B8F8482218F5 /* Pods_DodamDodam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		812B33FC25F0C2CB00DD299D /* DodamDodam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812B341125F0C2CE00DD299D /* Build configuration list for PBXNativeTarget "DodamDodam" */;
+			buildPhases = (
+				D5DC8E1995E73611BF40AC7D /* [CP] Check Pods Manifest.lock */,
+				812B33F925F0C2CB00DD299D /* Sources */,
+				812B33FA25F0C2CB00DD299D /* Frameworks */,
+				812B33FB25F0C2CB00DD299D /* Resources */,
+				FB8E20F137C71AFC2F8B9DB0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DodamDodam;
+			productName = DodamDodam;
+			productReference = 812B33FD25F0C2CB00DD299D /* DodamDodam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		812B33F525F0C2CB00DD299D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					812B33FC25F0C2CB00DD299D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 812B33F825F0C2CB00DD299D /* Build configuration list for PBXProject "DodamDodam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 812B33F425F0C2CB00DD299D;
+			productRefGroup = 812B33FE25F0C2CB00DD299D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				812B33FC25F0C2CB00DD299D /* DodamDodam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		812B33FB25F0C2CB00DD299D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812B340D25F0C2CE00DD299D /* LaunchScreen.storyboard in Resources */,
+				812B340A25F0C2CE00DD299D /* Assets.xcassets in Resources */,
+				812B340825F0C2CB00DD299D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5DC8E1995E73611BF40AC7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DodamDodam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8E20F137C71AFC2F8B9DB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DodamDodam/Pods-DodamDodam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DodamDodam/Pods-DodamDodam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DodamDodam/Pods-DodamDodam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		812B33F925F0C2CB00DD299D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6253AB2925F0DFDE0001BAEC /* SettingViewController.swift in Sources */,
+				812B340125F0C2CB00DD299D /* AppDelegate.swift in Sources */,
+				5F9C2FD125F5448D00462866 /* AlarmSettingViewController.swift in Sources */,
+				812B340325F0C2CB00DD299D /* SceneDelegate.swift in Sources */,
+				627A01E225FC658000570064 /* MonthlyListTableViewCell.swift in Sources */,
+				6253AB2D25F0E02A0001BAEC /* RegisterViewController.swift in Sources */,
+				6253AB4225F0E2470001BAEC /* ProfileViewController.swift in Sources */,
+				6253AB2125F0DDD50001BAEC /* HomeViewController.swift in Sources */,
+				6253AB2625F0DE3C0001BAEC /* StatisticsViewController.swift in Sources */,
+				6253AB3625F0E12F0001BAEC /* ThemeViewController.swift in Sources */,
+				817ECD0B25F6023700BB3F8B /* Share.swift in Sources */,
+				62C6E1E125FCC6FD00EF7D31 /* Diary.swift in Sources */,
+				817ECD0F25F6028200BB3F8B /* SelectEmotionViewController.swift in Sources */,
+				627A01E525FC659400570064 /* MonthlyListViewController.swift in Sources */,
+				6253AB3025F0E0BA0001BAEC /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		812B340625F0C2CB00DD299D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812B340725F0C2CB00DD299D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		812B340B25F0C2CE00DD299D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812B340C25F0C2CE00DD299D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		812B340F25F0C2CE00DD299D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		812B341025F0C2CE00DD299D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		812B341225F0C2CE00DD299D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1427A6E0556CBB59E4154B8 /* Pods-DodamDodam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DodamDodam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlec.DodamDodam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		812B341325F0C2CE00DD299D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84992BA5AFA07F9ECBA20A3 /* Pods-DodamDodam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DodamDodam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlec.DodamDodam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		812B33F825F0C2CB00DD299D /* Build configuration list for PBXProject "DodamDodam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812B340F25F0C2CE00DD299D /* Debug */,
+				812B341025F0C2CE00DD299D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812B341125F0C2CE00DD299D /* Build configuration list for PBXNativeTarget "DodamDodam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812B341225F0C2CE00DD299D /* Debug */,
+				812B341325F0C2CE00DD299D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 812B33F525F0C2CB00DD299D /* Project object */;
+}
