@@ -1,11 +1,15 @@
 # Dodam
 diary for a child growing up without any problems
 
-## Apple app store
+## ✔︎ Apple app store
 [애플 앱스토어 바로가기](https://apps.apple.com/kr/app/dodam/id1558335789, "dodam App store link")
 
-## 유튜브 영상 보기
+## ✔︎ 유튜브 영상 보기
 [도담 유튜브 영상 보기](https://www.youtube.com/watch?v=isxmoAD25KM, "dodam link")
+
+
+---
+
 
 
 ##### 개인정보 처리방침
